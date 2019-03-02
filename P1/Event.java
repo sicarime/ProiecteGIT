@@ -330,7 +330,7 @@ public class Event {
 						String newNames[] = newName.split(" ");
 						String newFirstname = newNames[0];
 						String newLastname = newNames[1];
-						guestsList.get(i).setFirsname(newFirstname);
+						guestsList.get(i).setFirstname(newFirstname);
 						guestsList.get(i).setLastname(newLastname);
 
 //						return true;
@@ -345,7 +345,7 @@ public class Event {
 									String newNames[] = newName.split(" ");
 									String newFirstname = newNames[0];
 									String newLastname = newNames[1];
-									waitingList.get(i).setFirsname(newFirstname);
+									waitingList.get(i).setFirstname(newFirstname);
 									waitingList.get(i).setLastname(newLastname);
 //									return true;
 									} 

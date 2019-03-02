@@ -16,7 +16,29 @@ public class Guest {
 		this.orderNo = orderNo;
 	}
 	
-
+	public String getFirstname() {
+		return this.firstname;
+	}
+	
+	public String getLastname() {
+		return this.lastname;
+	}
+	
+	public void setFirstname (String firstname) {
+		this.firstname = firstname;
+	}
+	
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+	
+	public String getEmail() {
+		return this.email;
+	}
+	
+	public void setEmail(String email) {
+		this.email = email;
+	}
 	
 	public boolean checkFirstname(String firstname) {
 		return firstname.toLowerCase().equals(this.firstname.toLowerCase());
